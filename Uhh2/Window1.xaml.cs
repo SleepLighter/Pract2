@@ -23,31 +23,45 @@ namespace Uhh2
         {
             InitializeComponent();
         }
-    
-    {
-        Dictionary<string, string> translations = new Dictionary<string, string>
-            {
-            { "солнце", "sun" },
-            { "дождь", "rain" },
-            { "снег", "snow" },
-            { "ветер", "wind" },
-            { "облако", "cloud" },
-            { "туман", "fog" },
-            { "град", "hail" },
-            { "мороз", "frost" },
-            { "гром", "thunder" },
-            { "молния", "lightning" }
+
+        Dictionary<string, string> Weather = new Dictionary<string, string>()
+        {
+            { "погода", "weather"},
+            { "туман","fog" },
+            { "солнечно", "sunny"},
+            { "пасмурно", "cloudy"},
+            { "ветрено", "wind" },
+            { "дождливо","rainy" },
+            { "снегопад","snowfall" },
+            { "безветренная", "calm" },
+            { "град","hail" },
+            { "ураган", "hurricane"},
+
+
         };
 
-        Console.WriteLine("Введите слово на русском языке:");
-        string input = Console.ReadLine();
-
-        if (translations.ContainsKey(input))
+        string s = "";
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            Console.WriteLine("Перевод: " + translations[input]);
+            s = Rus1.Text;
         }
-        else
+        private void Trans_click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("Такого слова нет.");
+            try
+            {
+                string w = s.ToLower();
+                Eng2.Text = Weather[w];
+            }
+            catch
+            {
+                Eng2.Text = "Увы";
+            }
         }
+        private void Menu_click(object sender, RoutedEventArgs e)
+        {
+            MainWindow a = new MainWindow();
+            a.Show();
+            this.Close();
+        }
+    }
 }

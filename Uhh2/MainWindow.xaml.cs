@@ -5,6 +5,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -23,31 +24,30 @@ namespace Uhh2
 
         private void Translator_click(object sender, RoutedEventArgs e)
         {
-            Dictionary<string, string> translations = new Dictionary<string, string>
-            {
-            { "солнце", "sun" },
-            { "дождь", "rain" },
-            { "снег", "snow" },
-            { "ветер", "wind" },
-            { "облако", "cloud" },
-            { "туман", "fog" },
-            { "град", "hail" },
-            { "мороз", "frost" },
-            { "гром", "thunder" },
-            { "молния", "lightning" }
-        };
+            Window1 a = new Window1();
+            a.Show();
+            this.Close();
+        }
 
-            Console.WriteLine("Введите слово на русском языке:");
-            string input = Console.ReadLine();
+        private void Calculator_click(object sender, RoutedEventArgs e)
+        {
+            Window2 b = new Window2();
+            b.Show();
+            this.Close();
+        }
 
-            if (translations.ContainsKey(input))
-            {
-                Console.WriteLine("Перевод: " + translations[input]);
-            }
-            else
-            {
-                Console.WriteLine("Такого слова нет.");
-            }
+        private void Numbers_click(object sender, RoutedEventArgs e)
+        {
+            Window3 c = new Window3();
+            c.Show();
+            this.Close();
+        }
+
+        private void Login_click(object sender, RoutedEventArgs e)
+        {
+            Window4 d = new Window4();
+            d.Show();
+            this.Close();
         }
     }
 }

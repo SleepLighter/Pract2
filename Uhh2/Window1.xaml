@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Переводчик" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="Russian" Margin="10,32,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Русский" VerticalAlignment="Top" Width="390" Height="50" FontSize="30"/>
+        <TextBox x:Name="English" Margin="444,32,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Английский " VerticalAlignment="Top" Width="346" Height="50" FontSize="30"/>
+        <TextBox x:Name="Rus1" Margin="10,0,0,0" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="390" Height="244" TextChanged="TextBox_TextChanged"/>
+        <TextBlock x:Name="Eng2" Margin="444,0,0,0" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="346" Height="244" />
+        <Button x:Name="Trans" Margin="267,369,0,0" HorizontalAlignment="Left" Content="Translate" VerticalAlignment="Top" Width="260" Height="40" Click="Trans_click"/>
+        <Button x:Name="Menu" Margin="680,369,0,0" HorizontalAlignment="Left" Content="Назад"  VerticalAlignment="Top" Width="110" Height="45"  Click="Menu_click"/>
     </Grid>
 </Window>

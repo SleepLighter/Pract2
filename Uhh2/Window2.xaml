@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uhh2"
         mc:Ignorable="d"
-        Title="Калькулятор" Height="450" Width="800">
+        Title="Калькулятор" Height="429" Width="600">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="396*"/>
+            <RowDefinition Height="31*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Menu" Margin="454,313,0,0" HorizontalAlignment="Left" Content="Назад"  VerticalAlignment="Top" Width="110" Height="45"  Click="Menu_click"/>
+        <Label Margin="10,60,0,0" VerticalAlignment="Top" Height="32">Первая переменная</Label>
+        <TextBlock x:Name="Tb1" HorizontalAlignment="Left" Margin="17,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="128" FontSize="24" FontFamily="Arial"/>
+        <Label Margin="233,60,0,0" VerticalAlignment="Top" Height="32">Вторая Переменная</Label>
+        <TextBlock x:Name="Tb2" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="128" FontSize="24" FontFamily="Arial"/>
+        <TextBox x:Name="tbb" HorizontalAlignment="Left" Margin="162,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="46" TextChanged="TextBox_TextChanged" Height="34" FontSize="20" FontFamily="Arial"/>
+        <Button Content="Переменные" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Top" Height="47" Width="84" Click="RNUM"/>
+        <Button Content="Выполнение операции" HorizontalAlignment="Left" Margin="111,207,0,0" VerticalAlignment="Top" Height="49" Click="Sch"/>
+        <TextBlock x:Name="resultat" HorizontalAlignment="Left" Margin="403,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="114" Width="212" FontSize="24" FontFamily="Arial"/>
+        <Label Content="Операция" HorizontalAlignment="Left" Margin="152,60,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

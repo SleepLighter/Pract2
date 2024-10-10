@@ -7,10 +7,9 @@
         mc:Ignorable="d"
         Title="Практическая работа 2" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Translator" Content="Переводчик" HorizontalAlignment="Left" Margin="85,85,0,0" VerticalAlignment="Top" Height="69" Width="75" Click="Translator_click"/>
-        <Button Content="Два" HorizontalAlignment="Left" Margin="213,105,0,0" VerticalAlignment="Top" Width="74" Height="59"/>
-        <Button Content="Три" HorizontalAlignment="Left" Margin="335,105,0,0" VerticalAlignment="Top" Height="49" Width="65"/>
-        <Button Content="Четыре" HorizontalAlignment="Left" Margin="495,81,0,0" VerticalAlignment="Top" Height="73" Width="78"/>
-
+        <Button x:Name="Translator" Content="Переводчик" HorizontalAlignment="Left" Margin="132,105,0,0" VerticalAlignment="Top" Height="69" Width="75" Click="Translator_click"/>
+        <Button x:Name="Calculator" Content="Калькулятор" HorizontalAlignment="Left" Margin="243,105,0,0" VerticalAlignment="Top" Width="74" Height="59" Click="Calculator_click"/>
+        <Button x:Name="Numbers" Content="Числа" HorizontalAlignment="Left" Margin="350,105,0,0" VerticalAlignment="Top" Height="49" Width="65" Click="Numbers_click"/>
+        <Button x:Name="Login" Content="Вход" HorizontalAlignment="Left" Margin="461,93,0,0" VerticalAlignment="Top" Height="73" Width="78" Click="Login_click"/>
     </Grid>
 </Window>
