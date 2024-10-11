@@ -33,22 +33,22 @@ namespace Uhh2
         Random R = new Random();
 
         string a;
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Action_TextChanged(object sender, TextChangedEventArgs e)
         {
-            a = tbb.Text;
+            a = Action.Text;
         }
 
         double operand1;
         double operand2;
-        private void RNUM(object sender, RoutedEventArgs e)
+        private void Variables_click(object sender, RoutedEventArgs e)
         {
-            Tb1.Text = Convert.ToString(R.Next(-1000000, 1000000));
-            operand1 = Convert.ToInt32(Tb1.Text);
-            Tb2.Text = Convert.ToString(R.Next(-1000000, 1000000));
-            operand2 = Convert.ToInt32(Tb2.Text);
+            FirstNum.Text = Convert.ToString(R.Next(-1000000, 1000000));
+            operand1 = Convert.ToInt32(FirstNum.Text);
+            SecondNum.Text = Convert.ToString(R.Next(-1000000, 1000000));
+            operand2 = Convert.ToInt32(SecondNum.Text);
         }
         double rez = 0;
-        private void Sch(object sender, RoutedEventArgs e)
+        private void Go_click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -56,28 +56,28 @@ namespace Uhh2
                 {
                     case "+":
                         rez = operand1 + operand2;
-                        resultat.Text = Convert.ToString(rez);
+                        Result.Text = Convert.ToString(rez);
                         break;
                     case "-":
                         rez = operand2 - operand1;
-                        resultat.Text = Convert.ToString(rez);
+                        Result.Text = Convert.ToString(rez);
                         break;
                     case "*":
                         rez = operand1 * operand2;
-                        resultat.Text = Convert.ToString(rez);
+                        Result.Text = Convert.ToString(rez);
                         break;
                     case "/":
                         rez = operand2 / operand1;
-                        resultat.Text = Convert.ToString(rez);
+                        Result.Text = Convert.ToString(rez);
                         break;
                     default:
-                        resultat.Text = "Увы";
+                        Result.Text = "Увы";
                         break;
                 }
             }
             catch
             {
-                resultat.Text = "Увы и ах";
+                Result.Text = "Увы и ах";
             }
         }
     }

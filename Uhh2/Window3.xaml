@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Числовые промежутки" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="Menu" VerticalAlignment="Top" Margin="600,350,0,0" Content="Назад" Width="142" Height="45"  Click="Menu_click"/>
+        <Label Margin="10,60,0,0" VerticalAlignment="Top" Height="32" FontSize="16">Число</Label>
+        <TextBox x:Name="Numbers" HorizontalAlignment="Left" Margin="13,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="358" Height="49" FontSize="20" TextChanged="Numbers_TextChanged" FontFamily="Arial"/>
+        <Label Margin="10,150,0,0" VerticalAlignment="Top" Height="32" FontSize="16">Промежутки</Label>
+        <TextBlock x:Name="Intervals" HorizontalAlignment="Left" Margin="13,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="538" Height="77" FontSize="20" FontFamily="Arial" FontWeight="Bold"/>
     </Grid>
 </Window>

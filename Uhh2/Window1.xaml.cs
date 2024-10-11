@@ -41,7 +41,7 @@ namespace Uhh2
         };
 
         string s = "";
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Rus1_TextChanged(object sender, TextChangedEventArgs e)
         {
             s = Rus1.Text;
         }

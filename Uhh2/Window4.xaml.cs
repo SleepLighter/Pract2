@@ -19,14 +19,41 @@ namespace Uhh2
     /// </summary>
     public partial class Window4 : Window
     {
+        public string Password { get; set; }
         public Window4()
+
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Login_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("welcome" + tbUsername.Text);
+            if (passwordBox.Password == "12345")
+            {
+                MessageBox.Show("Welcome " + tbUsername.Text);
+            }
+            else
+            {
+                MessageBox.Show("Неверный пароль. Попробуйте ещё раз");
+            }
+
+        }
+        private void Menu_click(object sender, RoutedEventArgs e)
+        {
+            MainWindow a = new MainWindow();
+            a.Show();
+            this.Close();
+        }
+        private void passwordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (passwordBox.Password == "Password")
+            {
+                MessageBox.Show("'Password' is not allowed as a password.");
+            }
+            else
+            {
+                MessageBox.Show =string.Empty;
+            }
         }
     }
 }

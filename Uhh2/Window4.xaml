@@ -10,7 +10,8 @@
         <Label>Username:</Label>
         <TextBox Name="tbUsername"></TextBox>
         <Label>Password</Label>
-        <PasswordBox></PasswordBox>
-        <Button Margin="5" Content="Login" Click="Button_Click"/>
+        <PasswordBox x:Name="passwordBox" Password="12345" MaxLength="5" PasswordChanged="passwordBox_PasswordChanged"></PasswordBox>
+        <Button x:Name="Login" Margin="5" Content="Login" Click="Login_Click"/>
+        <Button x:Name="Menu" VerticalAlignment="Top" Margin="454,150,0,0" Content="Назад" Width="142" Height="45"  Click="Menu_click"/>
     </StackPanel>
 </Window>
