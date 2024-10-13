@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|c:\\users\\zekam\\desktop\\study\\pract2\\uhh2\\window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|solutionrelative:window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|c:\\users\\zekam\\desktop\\study\\pract2\\uhh2\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|solutionrelative:window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|c:\\users\\zekam\\desktop\\study\\pract2\\uhh2\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|solutionrelative:window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|c:\\users\\zekam\\desktop\\study\\pract2\\uhh2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|c:\\users\\zekam\\desktop\\study\\pract2\\uhh2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3FE51B1-0979-4C93-83FD-DE773B5EA43B}|Uhh2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window3.xaml",
+              "DocumentMoniker": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window3.xaml",
+              "RelativeDocumentMoniker": "Window3.xaml",
+              "ToolTip": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window3.xaml",
+              "RelativeToolTip": "Window3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T19:46:16.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window4.xaml.cs",
+              "RelativeDocumentMoniker": "Window4.xaml.cs",
+              "ToolTip": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window4.xaml.cs",
+              "RelativeToolTip": "Window4.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:14:06.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window4.xaml",
+              "DocumentMoniker": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window4.xaml",
+              "RelativeDocumentMoniker": "Window4.xaml",
+              "ToolTip": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\Window4.xaml",
+              "RelativeToolTip": "Window4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T19:14:06.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T19:14:06.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\zekam\\Desktop\\Study\\Pract2\\Uhh2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:14:06.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

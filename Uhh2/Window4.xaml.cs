@@ -52,7 +52,7 @@ namespace Uhh2
             }
             else
             {
-                MessageBox.Show =string.Empty;
+                
             }
         }
     }
